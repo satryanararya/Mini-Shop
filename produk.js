@@ -67,25 +67,25 @@ var barang = {
     "More Products" : [{
             "nama" : "Comma Top",
             "image" : "assets/comma.jpg",
-            "desc" : "Available in White, Latte, & Black",
+            "desc" : "White, Latte, and Black",
             "harga" : "IDR 89.000"
         },
         {
             "nama" : "Kama Polo Top",
             "image" : "assets/kama.jpg",
-            "desc" : "Available in Mauve, & Blueberry",
+            "desc" : "Mauve, and Blueberry",
             "harga" : "IDR 99.000"
         },
         {
             "nama" : "Kanna Top",
             "image" : "assets/harlow.jpg",
-            "desc" : "Available in White and Army",
+            "desc" : "White and Army",
             "harga" : "IDR 109.000"
         },
         {
             "nama" : "Jade Top",
             "image" : "assets/jade.jpg",
-            "desc" : "Available in Rose Beige, & Black",
+            "desc" : "Rose Beige, and Black",
             "harga" : "IDR 149.000"
         }]
 }
@@ -124,5 +124,6 @@ for (var key in barang){
 
 function chatToAdmin(nama,desc,harga) {
     var noHp = "+628873839486";
-    window.open(`https://web.whatsapp.com/send?phone=${noHp}?&text=nama-produk:%20${nama}%0Adeskripsi:%20${desc}%0Aharga:%20${harga}%0AThanksBro`)
+    window.open(`http://wa.me/${noHp}/?text=Halo%20saya%20mau%20order%20:%0A${nama}%0A${desc}%0A${harga}%0A`)
 }
+
