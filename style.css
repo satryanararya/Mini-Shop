@@ -1,0 +1,29 @@
+.h1 {
+    font-family: "Times New Roman", Times, serif;
+    color:#8A7A56;
+  }
+.h5{
+    color:#8A7A56;
+  }
+
+.button1 {
+  border-radius: 24px;
+  background-color: #e7e4db;
+  color:black;
+  font-weight: 500;
+}
+
+.h3 {
+    font-family: "Times New Roman", Times, serif;
+    color:#8A7A56;
+    font-weight: bold;
+}
+
+.navbar {
+    background-color: #e7e4db;
+}
+
+.footer {
+    background-color:#e7e4db;
+    color:black;
+}
